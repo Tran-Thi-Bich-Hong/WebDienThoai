@@ -1,0 +1,1216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danh mục sản phẩm - Trang Đài Mobile</title>
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/fontawesome/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Paytone+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/home.css">
+ <link rel="stylesheet" href="css/category.css">
+ <link rel="stylesheet" href="fonts/fontawesome/css/all.min.css">
+</head>
+<body>
+    <!-- header -->
+    <header id="header">
+        <!-- header top -->
+        <div class="header__top">
+            <div class="container">
+                <section class="row flex">
+                    <div class="col-lg-5 col-md-0 col-sm-0 heade__top-left">
+                        <span>Trang Đài Mobile - Cửa hàng uy tín - chất lượng cao</span>
+                    </div>
+
+                    
+                </section>
+            </div>
+        </div>
+        <!--end header top -->
+
+        <!-- header bottom -->
+        <div class="header__bottom">
+            <div class="container">
+                <section class="row">
+                    <div class="col-lg-3 col-md-4 col-sm-12 header__logo">
+                        <h1 class="header__heading">
+                            <a href="index.html" class="header__logo-link">
+                                <img src="images1/logoTrangDai.PNG" alt="Logo" class="header__logo-img">
+                            </a>
+                        </h1>
+                    </div>
+
+                    <div class="col-lg-6 col-md-7 col-sm-0 header__search">
+                        <select name="" id="categorySelect" class="header__search-select">
+                            <option value="0">All</option>
+                            <option value="1">Điện thoại</option>
+                            <option value="2">Máy tính bảng</option>
+                            <option value="3">Laptop</option>
+                           
+                            
+                        </select>
+                        <input type="text" id ="productNameSelect"class="header__search-input" placeholder="Tìm kiếm tại đây...">
+                        <button class="header__search-btn">
+                            <div class="header__search-icon-wrap">
+                                <i class="fas fa-search header__search-icon"></i>
+                            </div>
+                        </button>
+                    </div>
+
+                    <div class="col-lg-2 col-md-0 col-sm-0 header__call">
+                        <div class="header__call-icon-wrap">
+                            <i class="fas fa-phone-alt header__call-icon"></i>  
+                        </div>
+                        <div class="header__call-info">
+                            <div class="header__call-text">
+                                Gọi điện tư vấn
+                            </div>
+                            <div class="header__call-number">
+                                0865.047.663
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="#" onclick="showCard()" class="col-lg-1 col-md-1 col-sm-0 header__cart">
+                        <div class="header__cart-icon-wrap">
+                            <span class="header__notice">0</span>
+                            <i class="fas fa-shopping-cart header__nav-cart-icon"></i>
+                        </div>
+                    </a>
+                </section>
+            </div>   
+        </div>
+        <!--end header bottom -->
+
+        <!-- header nav -->
+        <div class="header__nav">
+            <div class="container">
+                <section class="row">
+                    <div class="header__nav-menu-wrap col-lg-3 col-md-0 col-sm-0">
+                        <i class="fas fa-bars header__nav-menu-icon"></i>
+                        <div class="header__nav-menu-title">Danh mục sản phẩm</div>
+                    </div>
+
+                    <div class="header__nav col-lg-9 col-md-0 col-sm-0">
+                        <ul class="header__nav-list" id="categoryTick">
+                            <li class="header__nav-item " value="0">
+                                <a href="#" id="C-All" class="header__nav-link">Tất cả sản phẩm</a>
+                            </li>
+                            <li class="header__nav-item" value="1">
+                                <a href="#" id="C-All-P" class="header__nav-link">Điện thoại</a>
+                            </li>
+                            <li class="header__nav-item" value="2">
+                                <a href="#" id="C-All-M" class="header__nav-link">Máy tính bảng</a>
+                            </li>
+                            <li class="header__nav-item" value="3">
+                                <a href="#" id="C-All-L" class="header__nav-link">Laptop</a>
+                            </li>    
+                                                        
+                        </ul>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </header>
+    <!-- end header -->
+
+    <!-- category 1:Điện thoại-->
+    <section id ='category1' class="product__love">
+        <div class="container">
+            <div class="row bg-white">
+                <div class="col-lg-12 col-md-12 col-sm-12 product__love-title">
+                    <h2 class="product__love-heading upper">
+                        Điện thoại
+                    </h2>
+                </div>
+            </div>
+            <div class="row bg-white">
+                <div class="Samsung-Galaxy-ZFold3-5G product__panel-item col-lg-2 col-md-3 col-sm-6">
+                    <div class="product__panel-img-wrap">
+                        <img src="images1/product/samsung-galaxy-z-fold.jpg" alt="" class="product__panel-img">
+                    </div>
+                    <div class="product__panel-text">
+                        <h3 class="product__panel-heading">
+                            <a href="#" class="product__panel-link">Samsung Galaxy Z Fold3 5G - 256GB</a>
+                        </h3>
+                        <div class="product__panel-rate-wrap">
+                            <i class="fas fa-star product__panel-rate"></i>
+                            <i class="fas fa-star product__panel-rate"></i>
+                            <i class="fas fa-star product__panel-rate"></i>
+                            <i class="fas fa-star product__panel-rate"></i>
+                            <i class="fas fa-star product__panel-rate"></i>
+                        </div>
+                        <div class="product__panel-price">
+                            <span class="product__panel-price-old">
+                                41.990.000
+                            </span>
+                            <span class="product__panel-price-current">
+                                31.990.000
+                            </span>
+                        </div>
+                    </div>
+                    <div class="product__panel-price-sale-off">
+                        -23%
+                    </div>
+                </div>
+
+                <div class="OPPO-Find-X5-Pro-5G product__panel-item col-lg-2 col-md-3 col-sm-6">
+                    <div class="product__panel-img-wrap">
+                        <img src="images1/product/oppo-find-x5-pro-den.jpg" alt="" class="product__panel-img">
+                    </div>
+                    <h3 class="product__panel-heading">
+                        <a href="#" class="product__panel-link">OPPO Find X5 Pro 5G</a>
+                    </h3>
+                    <div class="product__panel-rate-wrap">
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                        
+                    </div>
+
+                    <div class="product__panel-price">
+                        <span class="product__panel-price-old">
+                           
+                        </span>
+                        <span class="product__panel-price-current">
+                            32.990.000đ
+                        </span>
+                    </div>
+                    <div class="product__panel-price-sale-off">
+                        -0%
+                    </div>
+                </div>
+
+                <div class="Samsung-Galaxy-S22-5G product__panel-item col-lg-2 col-md-3 col-sm-6">
+                    <div class="product__panel-img-wrap">
+                        <img src="images1/product/Galaxy-S22-Plus-White.jpg" alt="" class="product__panel-img">
+                    </div>
+                    <h3 class="product__panel-heading">
+                        <a href="#" class="product__panel-link">Samsung Galaxy S22+ 5G</a>
+                    </h3>
+                    <div class="product__panel-rate-wrap">
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                     
+                    </div>
+
+                    <div class="product__panel-price">
+                        <span class="product__panel-price-old">
+                            25.990.000đ
+                        </span>
+                        <span class="product__panel-price-current">
+                            22.990.000đ
+                        </span>
+                    </div>
+                    <div class="product__panel-price-sale-off">
+                        -11%
+                    </div>
+                </div>
+                <div class="Vivo-X80 product__panel-item col-lg-2 col-md-3 col-sm-6">
+                        <div class="product__panel-img-wrap">
+                            <img src="images1/product/vivo-x80-xanh.jpg" alt="" class="product__panel-img">
+                        </div>
+                        <h3 class="product__panel-heading">
+                            <a href="#" class="product__panel-link">Vivo X80</a>
+                        </h3>
+                        <div class="product__panel-rate-wrap">
+                            <i class="fas fa-star product__panel-rate"></i>
+                            <i class="fas fa-star product__panel-rate"></i>
+                            <i class="fas fa-star product__panel-rate"></i>
+                            <i class="fas fa-star product__panel-rate"></i>
+                            <i class="fas fa-star product__panel-rate"></i>
+                        </div>
+
+                        <div class="product__panel-price">
+                            <span class="product__panel-price-old">
+                                
+                            </span>
+                            <span class="product__panel-price-current">
+                                19.990.000đ
+                            </span>
+                        </div>
+
+                        <div class="product__panel-price-sale-off">
+                            -0%
+                        </div>
+                   
+                    
+
+                </div>
+
+                <div  class="Iphone-13 product__panel-item col-lg-2 col-md-3 col-sm-6">
+                    <div class="product__panel-img-wrap">
+                        <img src="images1/product/iPhone-13-1.jpg" alt="" class="product__panel-img">
+                    </div>
+                    <h3 class="product__panel-heading">
+                        <a href="#" class="product__panel-link">Iphone 13 </a>
+                    </h3>
+                    <div class="product__panel-rate-wrap">
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                        
+                    </div>
+
+                    <div class="product__panel-price">
+                        <span class="product__panel-price-old">
+                            24.990.000
+                        </span>
+                        <span class="product__panel-price-current">
+                            20.290.000
+                        </span>
+                    </div>
+
+                    <div class="product__panel-price-sale-off">
+                        -18%
+                    </div>
+                </div>
+
+                <div class=" Iphone-12 product__panel-item col-lg-2 col-md-3 col-sm-6">
+                    <div class="product__panel-img-wrap">
+                        <img src="images1/product/iphone-12-tim-1.jpg" alt="" class="product__panel-img" >
+                    </div>
+                    <h3 class="product__panel-heading">
+                        <a href="#" class="product__panel-link">Iphone 12</a>
+                    </h3>
+                    <div class="product__panel-rate-wrap">
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                        
+                    </div>
+
+                    <div class="product__panel-price">
+                        <span class="product__panel-price-old">
+                            19.990.000
+                        </span>
+                        <span class="product__panel-price-current">
+                            17.790.000
+                        </span>
+                    </div>
+
+                    <div class="product__panel-price-sale-off">
+                        -11%
+                    </div> 
+                </div>
+
+                <div class=" Samsung-Galaxy-Zlip3-5G product__panel-item col-lg-2 col-md-3 col-sm-6">
+                    <div class="product__panel-img-wrap">
+                        <img src="images1/product/samsung-galaxy-z-flip-3-cream-.jpg" alt="" class="product__panel-img">
+                    </div>
+                    <h3 class="product__panel-heading">
+                        <a href="#" class="product__panel-link">Samsung Galaxy Z Flip3 5G</a>
+                    </h3>
+                    <div class="product__panel-rate-wrap">
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                        
+                    </div>
+
+                    <div class="product__panel-price">
+                        <span class="product__panel-price-old">
+                            24.990.000
+                        </span>
+                        <span class="product__panel-price-current">
+                            14.990.000
+                        </span>
+                    </div>
+
+                    <div class="product__panel-price-sale-off">
+                        -40%
+                    </div>
+                </div>
+
+                <div class="Iphone-SE product__panel-item col-lg-2 col-md-3 col-sm-6">
+                    <div class="product__panel-img-wrap">
+                        <img src="images1/product/iphone-se-red-.jpg" alt="" class="product__panel-img">
+                    </div>
+                    <h3 class="product__panel-heading">
+                        <a href="#" class="product__panel-link">iPhone SE 64GB (2022)</a>
+                    </h3>
+                    <div class="product__panel-rate-wrap">
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                    </div>
+
+                    <div class="product__panel-price">
+                        <span class="product__panel-price-old">
+                            13.490.000
+                        </span>
+                        <span class="product__panel-price-current">
+                            12.790.000
+                        </span>
+                    </div>
+
+                    <div class="product__panel-price-sale-off">
+                        -5%
+                    </div>
+                </div>
+                <div class="Samsung-galaxy-m53 product__panel-item col-lg-2 col-md-3 col-sm-6">
+                    <div class="product__panel-img-wrap">
+                        <img src="images1/product/samsung-galaxy-m53.jpg" alt="" class="product__panel-img">
+                    </div>
+                    <h3 class="product__panel-heading">
+                        <a href="#" class="product__panel-link">Samsung Galaxy M53</a>
+                    </h3>
+                    <div class="product__panel-rate-wrap">
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                       
+                    </div>
+
+                    <div class="product__panel-price">
+                        <span class="product__panel-price-old">
+                            
+                        </span>
+                        <span class="product__panel-price-current">
+                            12.990.000
+                        </span>
+                    </div> 
+                </div>
+
+                <div class="Oppo-Reno6-5G product__panel-item col-lg-2 col-md-3 col-sm-6">
+                    <div class="product__panel-img-wrap">
+                        <img src="images1/product/oppo-reno6-5g-black.jpg" alt="" class="product__panel-img">
+                    </div>
+                    <h3 class="product__panel-heading">
+                        <a href="#" class="product__panel-link">OPPO Reno6 series</a>
+                    </h3>
+                    <div class="product__panel-rate-wrap">
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                       
+                    </div>
+
+                    <div class="product__panel-price">
+                        <span class="product__panel-price-old">
+                            
+                        </span>
+                        <span class="product__panel-price-current">
+                            12.990.000
+                        </span>
+                    </div> 
+                </div>
+
+                <div class="Xiaomi-11T-5G product__panel-item col-lg-2 col-md-3 col-sm-6">
+                    <div class="product__panel-img-wrap">
+                        <img src="images1/product/Xiaomi-11T-White.jpg" alt="" class="product__panel-img">
+                    </div>
+                    <h3 class="product__panel-heading">
+                        <a href="#" class="product__panel-link">Xiaomi 11T</a>
+                    </h3>
+                    <div class="product__panel-rate-wrap">
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                    </div>
+
+                    <div class="product__panel-price">
+                        <span class="product__panel-price-old">
+                            10.990.000
+                        </span>
+                        <span class="product__panel-price-current">
+                            9.490.000
+                        </span>
+                    </div>
+                    <div class="product__panel-price-sale-off">
+                        -13%
+                    </div> 
+                </div>
+                <div class="Samsung-Galaxy-S20FE product__panel-item col-lg-2 col-md-3 col-sm-6">
+                    <div class="product__panel-img-wrap">
+                        <img src="images1/product/samsung-galaxy-s20.jpg" alt="" class="product__panel-img">
+                    </div>
+                    <h3 class="product__panel-heading">
+                        <a href="#" class="product__panel-link">Samsung Galaxy S20 FE</a>
+                    </h3>
+                    <div class="product__panel-rate-wrap">
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                        
+                    </div>
+
+                    <div class="product__panel-price">
+                        <span class="product__panel-price-old">
+                            15.490.000
+                        </span>
+                        <span class="product__panel-price-current">
+                            10.990.000
+                        </span>
+                    </div>
+                    <div class="product__panel-price-sale-off">
+                        -29%
+                    </div>
+                </div>
+
+                <div class="Oppo-Reno4-Pro product__panel-item col-lg-2 col-md-3 col-sm-6">
+                    <div class="product__panel-img-wrap">
+                        <img src="images1/product/oppo-reno4-pro.jpg" alt="" class="product__panel-img" >
+                    </div>
+                    <h3 class="product__panel-heading">
+                        <a href="#" class="product__panel-link">OPPO Reno4 Pro</a>
+                    </h3>
+                    <div class="product__panel-rate-wrap">
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                        
+                    </div>
+
+                    <div class="product__panel-price">
+                        <span class="product__panel-price-old">
+                          
+                        </span>
+                        <span class="product__panel-price-current">
+                            10.490.000
+                        </span>
+                    </div>
+                </div>
+
+                <div class="Iphone13-Mini product__panel-item col-lg-2 col-md-3 col-sm-6">
+                    <div class="product__panel-img-wrap">
+                        <img src="images1/product/iphon13- mini.jpg" alt="" class="product__panel-img" >
+                    </div>
+                    <h3 class="product__panel-heading">
+                        <a href="#" class="product__panel-link">Iphone 13 mini 
+                        </a>
+                    </h3>
+                    <div class="product__panel-rate-wrap">
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                    </div>
+
+                    <div class="product__panel-price">
+                        <span class="product__panel-price-old">
+                            21.490.000
+                        </span>
+                        <span class="product__panel-price-current">
+                            18.290.000
+                        </span>
+                    </div>
+                    <div class="product__panel-price-sale-off">
+                        -13%
+                    </div>
+                </div>
+                <div class="OPPO-Reno7-series product__panel-item col-lg-2 col-md-3 col-sm-6">
+                    <div class="product__panel-img-wrap">
+                        <img src="images1/product/oppo-reno7.jpg" alt="Oppo zeno 7" class="product__panel-img">
+                    </div>
+                    <h3 class="product__panel-heading">
+                        <a href="#" class="product__panel-link">OPPO Reno7 series</a>
+                    </h3>
+                    <div class="product__panel-rate-wrap">
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                       
+                    </div>
+
+                    <div class="product__panel-price">
+                        <span class="product__panel-price-old">
+                            
+                        </span>
+                        <span class="product__panel-price-current">
+                            9.990.000đ
+                        </span>
+                    </div>
+                    
+                </div>
+                <div class="Iphone-11 product__panel-item col-lg-2 col-md-3 col-sm-6">
+                    <div class="product__panel-img-wrap">
+                        <img src="images1/product/iphone-11.jpg" alt="Oppo zeno 7" class="product__panel-img">
+                    </div>
+                    <h3 class="product__panel-heading">
+                        <a href="#" class="product__panel-link">Iphone 11</a>
+                    </h3>
+                    <div class="product__panel-rate-wrap">
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                    </div>
+
+                    <div class="product__panel-price">
+                        <span class="product__panel-price-old">
+                            
+                        </span>
+                        <span class="product__panel-price-current">
+                            12.290.000đ
+                        </span>
+                    </div>
+                    
+                </div>
+                <div class="Xiaomi-Redmi-Note11 product__panel-item col-lg-2 col-md-3 col-sm-6">
+                    <div class="product__panel-img-wrap">
+                        <img src="images1/product/Xiaomi-redmi-note-11.jpeg" alt="Oppo zeno 7" class="product__panel-img">
+                    </div>
+                    <h3 class="product__panel-heading">
+                        <a href="#" class="product__panel-link">Xiaomi redmi note 11</a>
+                    </h3>
+                    <div class="product__panel-rate-wrap">
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                        
+                    </div>
+
+                    <div class="product__panel-price">
+                        <span class="product__panel-price-old">
+                            
+                        </span>
+                        <span class="product__panel-price-current">
+                            4.190.000đ
+                        </span>
+                    </div>
+                    
+                </div>
+                <div class="Samsung-Galaxy-S22_Ultra product__panel-item col-lg-2 col-md-3 col-sm-6">
+                    <div class="product__panel-img-wrap">
+                        <img src="images1/product/Galaxy-S22.jpg" alt="Oppo zeno 7" class="product__panel-img">
+                    </div>
+                    <h3 class="product__panel-heading">
+                        <a href="#" class="product__panel-link">Samsung Galaxy S22 Ultra 5G</a>
+                    </h3>
+                    <div class="product__panel-rate-wrap">
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                       
+                    </div>
+
+                    <div class="product__panel-price">
+                        <span class="product__panel-price-old">
+                            
+                        </span>
+                        <span class="product__panel-price-current">
+                            27.990.000đ
+                        </span>
+                    </div>
+                    
+                </div>
+                <div class="Realme-C35 product__panel-item col-lg-2 col-md-3 col-sm-6">
+                    <div class="product__panel-img-wrap">
+                        <img src="images1/product/realme-c35.jpg" alt="Oppo zeno 7" class="product__panel-img">
+                    </div>
+                    <h3 class="product__panel-heading">
+                        <a href="#" class="product__panel-link">Realme C35</a>
+                    </h3>
+                    <div class="product__panel-rate-wrap">
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+ 
+                       
+                    </div>
+
+                    <div class="product__panel-price">
+                        <span class="product__panel-price-old">
+                            
+                        </span>
+                        <span class="product__panel-price-current">
+                            4.290.000đ
+                        </span>
+                    </div>
+                    
+                </div>
+                <div class="Samsung-Galaxy-A13 product__panel-item col-lg-2 col-md-3 col-sm-6">
+                    <div class="product__panel-img-wrap">
+                        <img src="images1/product/Samsung-Galaxy-A13.jpg" alt="Oppo zeno 7" class="product__panel-img">
+                    </div>
+                    <h3 class="product__panel-heading">
+                        <a href="#" class="product__panel-link">Samsung Galaxy A13</a>
+                    </h3>
+                    <div class="product__panel-rate-wrap">
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+ 
+                       
+                    </div>
+
+                    <div class="product__panel-price">
+                        <span class="product__panel-price-old">
+                            
+                        </span>
+                        <span class="product__panel-price-current">
+                            4.190.000đ
+                        </span>
+                    </div>
+                    
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- category 2: Máy tính bảng-->
+    <section  id ='category2' class="product__love">
+        <div class="container">
+            <div class="row bg-white">
+                <div class="col-lg-12 col-md-12 col-sm-12 product__love-title">
+                    <h2 class="product__love-heading upper">
+                       Máy tính bảng
+                    </h2>
+                </div>
+            </div>
+            <div class="row bg-white">
+                <div class="product__panel-item col-lg-2 col-md-3 col-sm-6">
+                    <div class="product__panel-img-wrap">
+                        <img src="images1/category/img_7523.jpg" alt="" class="product__panel-img">
+                    </div>
+                    <h3 class="product__panel-heading">
+                        <a href="#" class="product__panel-link">English Grammar in Use Book with Answer	</a>
+                    </h3>
+                    <div class="product__panel-rate-wrap">
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                    </div>
+
+                    <div class="product__panel-price">
+                        <!-- product__panel-price-old-hide -->
+                        <span class="product__panel-price-old "> 
+                            178.000đ
+                        </span>
+                        <span class="product__panel-price-current">
+                            169.100đ
+                        </span>
+                    </div>  
+
+                    <div class="product__panel-price-sale-off">
+                        -5%
+                    </div>
+                </div>
+
+                <div class="product__panel-item col-lg-2 col-md-3 col-sm-6">
+                    <div class="product__panel-img-wrap">
+                        <img src="images1/category/image_193948.jpg" alt="" class="product__panel-img" >
+                    </div>
+                    <h3 class="product__panel-heading">
+                        <a href="#" class="product__panel-link">TOxford Picture Dictionary Third Edition: English - Vietnamese Edition 
+                        </a>
+                    </h3>
+                    <div class="product__panel-rate-wrap">
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                    </div>
+
+                    <div class="product__panel-price">
+                        <span class="product__panel-price-old ">
+                            307.000đ
+                        </span>
+                        <span class="product__panel-price-current">
+                            291.650đ
+                        </span>
+                    </div> 
+
+                    <div class="product__panel-price-sale-off">
+                        -5%
+                    </div> 
+                </div>
+
+                <div class="product__panel-item col-lg-2 col-md-3 col-sm-6">
+                    <div class="product__panel-img-wrap">
+                        <img src="images1/category/9781108638425.jpg" alt="" class="product__panel-img">
+                    </div>
+                    <h3 class="product__panel-heading">
+                        <a href="#" class="product__panel-link">Mindset For IELTS Level 3 Student's Book With Testbank And Online Modules</a>
+                    </h3>
+                    <div class="product__panel-rate-wrap">
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                    </div>
+
+                    <div class="product__panel-price">
+                        <span class="product__panel-price-old  ">
+                            395.000đ
+                        </span>
+                        <span class="product__panel-price-current">
+                            375.250đ
+                        </span>
+                    </div>
+
+                    <div class="product__panel-price-sale-off">
+                        -5%
+                    </div> 
+                </div>
+                <div class="product__panel-item col-lg-2 col-md-3 col-sm-6">
+                    <div class="product__panel-img-wrap">
+                        <img src="images1/category/9780099590088.jpg" alt="" class="product__panel-img">
+                    </div>
+                    <h3 class="product__panel-heading">
+                        <a href="#" class="product__panel-link">Sapiens : A Brief History of Humankind</a>
+                    </h3>
+                    <div class="product__panel-rate-wrap">
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                    </div>
+
+                    <div class="product__panel-price">
+                        <span class="product__panel-price-old product__panel-price-old-hide">
+                            249.000đ
+                        </span>
+                        <span class="product__panel-price-current">
+                            224.100đ
+                        </span>
+                    </div> 
+
+                     <!-- <div class="product__panel-price-sale-off">
+                        -10%
+                    </div>  -->
+                </div>
+
+                <div class="product__panel-item col-lg-2 col-md-3 col-sm-6">
+                    <div class="product__panel-img-wrap">
+                        <img src="images1/category/image_140812.jpg" alt="" class="product__panel-img" >
+                    </div>
+                    <h3 class="product__panel-heading">
+                        <a href="#" class="product__panel-link">Elon Musk: How the Billionaire CEO of SpaceX and Tesla is Shaping our Future</a>
+                    </h3>
+                    <div class="product__panel-rate-wrap">
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                    </div>
+
+                    <div class="product__panel-price">
+                        <span class="product__panel-price-old product__panel-price-old-hide">
+                            112.000đ
+                        </span>
+                        <span class="product__panel-price-current">
+                            100.800đ
+                        </span>
+                    </div> 
+
+                    <!-- <div class="product__panel-price-sale-off">
+                        -10%
+                    </div>  -->
+                </div>
+
+                <div class="product__panel-item col-lg-2 col-md-3 col-sm-6">
+                    <div class="product__panel-img-wrap">
+                        <img src="images1/category/9781250169440_1.jpg" alt="" class="product__panel-img">
+                    </div>
+                    <h3 class="product__panel-heading">
+                        <a href="#" class="product__panel-link">Call Me By Your Name</a>
+                    </h3>
+                    <div class="product__panel-rate-wrap">
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                    </div>
+
+                    <div class="product__panel-price">
+                        <span class="product__panel-price-old product__panel-price-old-hide">
+                            140.000đ
+                        </span>
+                        <span class="product__panel-price-current">
+                            133.000đ
+                        </span>
+                    </div> 
+
+                    <!-- <div class="product__panel-price-sale-off">
+                        -5%
+                    </div>  -->
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- category 3: Laptop-->
+    <section  id ='category3'class="product__love">
+        <div class="container">
+            <div class="row bg-white">
+                <div class="col-lg-12 col-md-12 col-sm-12 product__love-title">
+                    <h2 class="product__love-heading upper">
+                        Laptop
+                    </h2>
+                </div>
+            </div>
+            <div class="row bg-white">
+                
+                <div class="product__panel-item col-lg-2 col-md-3 col-sm-6">
+                    <div class="product__panel-img-wrap">
+                        <img src="images1/product/image_186912.jpg" alt="" class="product__panel-img">
+                    </div>
+                    <h3 class="product__panel-heading">
+                        <a href="#" class="product__panel-link">My Hero Academia - Tập 3: All Might</a>
+                    </h3>
+                    <div class="product__panel-rate-wrap">
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                    </div>
+
+                    <div class="product__panel-price">
+                        <span class="product__panel-price-old product__panel-price-old-hide">
+                            20.000đ
+                        </span>
+                        <span class="product__panel-price-current">
+                            18.000đ
+                        </span>
+                    </div>  
+
+                    <!-- <div class="product__panel-price-sale-off">
+                        -10%
+                    </div>  -->
+                </div>
+
+                <div class="product__panel-item col-lg-2 col-md-3 col-sm-6">
+                    <div class="product__panel-img-wrap">
+                        <img src="images1/product/image_186914.jpg" alt="" class="product__panel-img">
+                    </div>
+                    <h3 class="product__panel-heading">
+                        <a href="#" class="product__panel-link">My Hero Academia - Tập 5: Todoroki Shoto: Khởi Đầu</a>
+                    </h3>
+                    <div class="product__panel-rate-wrap">
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                    </div>
+
+                    <div class="product__panel-price">
+                        <span class="product__panel-price-old product__panel-price-old-hide">
+                            20.000đ
+                        </span>
+                        <span class="product__panel-price-current">
+                            18.000đ
+                        </span>
+                    </div> 
+
+                    <!-- <div class="product__panel-price-sale-off">
+                        -10%
+                    </div>  -->
+                </div>
+
+                <div class="product__panel-item col-lg-2 col-md-3 col-sm-6">
+                    <div class="product__panel-img-wrap">
+                        <img src="images1/product/600my-hero-academia-hoc-vien-sieu-anh-hung.jpg" alt="" class="product__panel-img">
+                    </div>
+                    <h3 class="product__panel-heading">
+                        <a href="#" class="product__panel-link">My Hero Academia - Tập 27: One’s Justice</a>
+                    </h3>
+                    <div class="product__panel-rate-wrap">
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                    </div>
+
+                    <div class="product__panel-price">
+                        <span class="product__panel-price-old ">
+                            20.000đ
+                        </span>
+                        <span class="product__panel-price-current">
+                            18.000đ
+                        </span>
+                    </div> 
+
+                    <div class="product__panel-price-sale-off">
+                        -10%
+                    </div> 
+                </div>
+
+                <div class="product__panel-item col-lg-2 col-md-3 col-sm-6">
+                    <div class="product__panel-img-wrap">
+                        <img src="images1/product/mob-psycho-100_tap-3.jpg" alt="" class="product__panel-img">
+                    </div>
+                    <h3 class="product__panel-heading">
+                        <a href="#" class="product__panel-link">Mob Psycho 100 - Tập 3</a>
+                    </h3>
+                    <div class="product__panel-rate-wrap">
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                    </div>
+
+                    <div class="product__panel-price">
+                        <span class="product__panel-price-old ">
+                            30.000đ
+                        </span>
+                        <span class="product__panel-price-current">
+                            27.000đ
+                        </span>
+                    </div>
+
+                    <div class="product__panel-price-sale-off">
+                        -10%
+                    </div> 
+                </div>
+
+                <div class="product__panel-item col-lg-2 col-md-3 col-sm-6">
+                    <div class="product__panel-img-wrap">
+                        <img src="images1/product/one-piece-tap-95_chuyen-chu-du-cua-oden_1.jpg" alt="" class="product__panel-img" >
+                    </div>
+                    <h3 class="product__panel-heading">
+                        <a href="#" class="product__panel-link">One Piece - Tập 95 (Bản Bìa Rời)</a>
+                    </h3>
+                    <div class="product__panel-rate-wrap">
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                    </div>
+
+                    <div class="product__panel-price">
+                        <span class="product__panel-price-old ">
+                            19.500đ
+                        </span>
+                        <span class="product__panel-price-current">
+                            16.575đ
+                        </span>
+                    </div> 
+
+                    <div class="product__panel-price-sale-off">
+                        -15%
+                    </div> 
+                </div>
+
+                <div class="product__panel-item col-lg-2 col-md-3 col-sm-6">
+                    <div class="product__panel-img-wrap">
+                        <img src="images1/product/thanh-guom-diet-quy-tap-12.jpg" alt="" class="product__panel-img" >
+                    </div>
+                    <h3 class="product__panel-heading">
+                        <a href="#" class="product__panel-link">Thanh Gươm Diệt Quỷ - Tập 12: Các Thượng Huyền Tập Hợp
+                        </a>
+                    </h3>
+                    <div class="product__panel-rate-wrap">
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                        <i class="fas fa-star product__panel-rate"></i>
+                    </div>
+
+                    <div class="product__panel-price">
+                        <span class="product__panel-price-old product__panel-price-old-hide">
+                            25.000đ
+                        </span>
+                        <span class="product__panel-price-current">
+                            63.960đ
+                        </span>
+                    </div> 
+
+                    <!-- <div class="product__panel-price-sale-off">
+                        -10%
+                    </div>  -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <!-- footer -->
+   <footer>
+    <section class="footer__top">
+        <div class="container">
+            <div class="row">
+                <article class="footer__top-intro col-lg-5 col-md-4 col-sm-6">
+                    <h4 class="footer__top-intro-heading">
+                        Về chúng tôi
+                    </h4>
+                    <div class="footer__top-intro-content">
+                        Trang Đài Mobile là cửa hàng chuyên bán về các sản phẩm điện thoại ,
+                         laptop, phụ kiện đi kèm, luôn cung cấp cho các bạn những mẫu mã tốt nhất và có bảo hành đầy đủ.
+                         <br>
+                        Điện thoại: 0865.047.663 <br>
+                       
+                    </div>
+                </article>
+
+                <article class="footer__top-policy col-lg-2 col-md-3 col-sm-6">
+                    <h4 class="footer__top-policy-heading">
+                        Chính sách mua hàng
+                    </h4>
+
+                    <ul class="footer__top-policy-list">
+                        <li class="footer__top-policy-item">
+                            <a href="#" class="footer__top-policy-link">Hình thức đặt hàng</a>
+                        </li>
+                        <li class="footer__top-policy-item">
+                            <a href="#" class="footer__top-policy-link">Hình thức thanh toán</a>
+                        </li>
+                        <li class="footer__top-policy-item">
+                            <a href="#" class="footer__top-policy-link">Phương thức vận chuyển</a>
+                        </li>
+                        <li class="footer__top-policy-item">
+                            <a href="#" class="footer__top-policy-link">Chính sách đổi trả</a>
+                        </li>
+                        <li class="footer__top-policy-item">
+                            <a href="#" class="footer__top-policy-link">Hướng dẫn sử dụng</a>
+                        </li>
+                    </ul>
+                </article>
+
+                <article class="footer__top-contact-wrap col-lg-4 col-md-4 col-sm-6">
+                    <h4 class="footer__top-contact-heading">
+                        Hotline liên hệ
+                    </h4>
+
+                    <div class="footer__top-contact">
+                        <div class="footer__top-contact-icon">
+                            <img src="images/phone_top.png" class="footer__top-contact-img">
+                        </div>
+
+                        <div class="footer__top-contact-phone-wrap">
+                            <div class="footer__top-contact-phone">
+                                0865.047.663
+                            </div>
+                            <div class="footer__top-contact-des">
+                                (Giải đáp thắc mắc 24/24)
+                            </div>
+                        </div>
+                    </div>
+                
+                    <h4 class="footer__top-contact-heading">
+                        Kết nối với chúng tôi
+                    </h4>
+
+                    <div class="footer__top-contact-social">
+                        <a href="#" class="footer__top-contact-social-link">
+                            <img src="images/facebook.png">
+                        </a>
+                        <a href="#" class="footer__top-contact-social-link">
+                            <img src="images/youtube.png">
+                        </a>
+                        <a href="#" class="footer__top-contact-social-link">
+                            <img src="images/tiktok.png">
+                        </a>
+                        <a href="#" class="footer__top-contact-social-link">
+                            <img src="images/zalo.png">
+                        </a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section class="footer__bottom">
+        <div class="container">
+            <div class="row">
+                <span class="footer__bottom-content">@Bản quyền thuộc về Trang Đài Mobile  </span>
+            </div>
+        </div>
+    </section>
+</footer>
+<!-- end footer -->
+<section class ="Cart_Product">
+    <i class="fas fa-times"></i>
+    <h2 style="text-align: center; margin-bottom: 20px; color: tomato;"> GIỎ HÀNG CỦA BẠN</h2>
+    <form action="">
+        <table class="tbCard tbCard-bordered" >
+            <thead>
+                <tr >
+                    <th>Sản Phẩm</th>
+                    <th>Giá</th>
+                    <th>Số Lượng</th>
+                    <th>Đơn giá</th>
+                </tr>
+            </thead>
+            <tbody class="tbd">
+                <!-- <tr>
+                    <td class="cart__body-name-title" style=" padding: 8px;  font-size: 1.5rem;">Oppo reno 4</td>
+                    <td style=" padding: 8px;  font-size: 1.5rem;"><span>76.800đ</span></td>
+                    <td style=" padding: 8px;  font-size: 1.5rem;" ><input class="quantity" style="width:65px; outline:none;text-align:center" type="number" value="1" min="1"/></td>
+                    <td style = "cursor: pointer; padding: 8px;  font-size: 1.5rem;">Xóa</td>
+                </tr> -->
+            </tbody>
+        </table>
+        <br>
+        <div style="text-align:right;color:red" class="price_total">
+            <p style="font-weight: bold; font-size: 1.5rem; padding: 20px;">Tổng Tiền: <Span style="font-size: 1.5rem;">0</Span>  <sup>vnd</sup></p>
+        </div>
+        <div class="Order">
+            <h3 class="doimausale">
+                Quý khách vui lòng để lại thông tin cá nhân để mua hàng
+            </h3>
+            <form id ="FormOrderP" action="" method="post">
+                <div>
+                    <input type="text" id="Customer_Name" aria-describedby="emailHelp" placeholder="Họ tên của bạn..." required>
+                    <span class="required"></span>
+                </div>
+                <div>
+                    <input type="number" id="Customer-Phone" aria-describedby="emailHelp" placeholder="Số điện thoại của bạn..." required>
+                    <span class="required"></span>
+                </div>
+                <div>
+                    <input type="text" id="Customer-address" aria-describedby="emailHelp" placeholder="Địa chỉ của bạn..." required>
+                    <span class="required"></span>
+                </div>
+                <p>Bạn muốn mua điện thoại trả góp bao nhiều tháng?</p>
+                <label class="radio-inline"><input type="radio" name="optradio" checked>3 Tháng</label>
+                <label class="radio-inline"><input type="radio" name="optradio">6 Tháng</label>
+                <label class="radio-inline"><input type="radio" name="optradio">9 Tháng</label>
+                <label class="radio-inline"><input type="radio" name="optradio">12 Tháng</label>
+                <textarea name="" id="" cols="200" rows="15" placeholder="Ghi chú..."></textarea> 
+                <button onclick="submitOrder()" class="btn btn-primary">Gửi liên hệ</button>
+            </form>
+        </div>
+        <button onclick="btorder()" class="bto">
+            Đặt hàng
+        </button>
+    </form>
+</section>
+<!-- scroll to top -->
+<button onclick="topFunction()" id="myBtn-scroll" title="Go to top"><i class="fas fa-chevron-up"></i></i></button>
+    
+    <script src="js/jq.js"></script>
+    <script src="js/category.js"></script>
+    <script src="js/card.js"></script>
+    <script src="js/link.js"></script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+$(".Iphone-13").click(function(){
+    $(location).attr('href','Iphone13.html');
+});
+$(".Iphone-12").click(function(){
+    $(location).attr('href','Iphone-12.html');
+});
+$(".Samsung-galaxy-m53").click(function(){
+    $(location).attr('href','Samsung-Galaxy-M53.html');
+});
+$(".Xiaomi-11T-5G").click(function(){
+    $(location).attr('href','Xiaomi-11T-5G.html');
+});
+$(".Oppo-Reno4-Pro").click(function(){
+    $(location).attr('href','Oppo-Reno4-Pro.html');
+});
+$(".Iphone13-Mini").click(function(){
+    $(location).attr('href','Iphone13-Mini.html');
+});
+$(".Samsung-Galaxy-S20FE").click(function(){
+    $(location).attr('href','Samsung-Galaxy-S20FE.html');
+});
+$(".Oppo-Reno6-5G").click(function(){
+    $(location).attr('href','Oppo-Reno6-5G.html');
+});
+$(".Xiaomi-Redmi-Note11").click(function(){
+    $(location).attr('href','Xiaomi-Redmi-Note11.html');
+});
+$(".Samsung-Galaxy-S22_Ultra").click(function(){
+    $(location).attr('href','Samsung-Galaxy-S22_Ultra.html');
+});
+$(".Realme-C35").click(function(){
+    $(location).attr('href','Realme-C35.html');
+});
+$(".Samsung-Galaxy-A13").click(function(){
+    $(location).attr('href','Samsung-Galaxy-A13.html');
+});
+$(".Samsung-Galaxy-Zlip3-5G").click(function(){
+    $(location).attr('href','Samsung-Galaxy-Zlip3-5G.html');
+});
+$(".Iphone-SE").click(function(){
+    $(location).attr('href','Iphone-SE.html');
+});
+$(".Samsung-Galaxy-ZFold3-5G").click(function(){
+    $(location).attr('href','Samsung-Galaxy-ZFold3-5G.html');
+});
+$(".OPPO-Find-X5-Pro-5G").click(function(){
+    $(location).attr('href','OPPO-Find-X5-Pro-5G.html');
+});
+$(".Samsung-Galaxy-S22-5G").click(function(){
+    $(location).attr('href','Samsung-Galaxy-S22-5G.html');
+});
+$(".Vivo-X80").click(function(){
+    $(location).attr('href','Vivo-X80.html');
+});
+$(".OPPO-Reno7-series").click(function(){
+    $(location).attr('href','OPPO-Reno7-series.html');
+});
+$(".Iphone-11").click(function(){
+    $(location).attr('href','Iphone-11.html');
+});
+
+
+
+

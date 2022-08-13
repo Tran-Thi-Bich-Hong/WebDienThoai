@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sản phẩm</title>
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/product.css">
+    <link rel="stylesheet" href="css/home.css">
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
+    
+</head>
+<body>
+    <header id="header">
+        <!-- header top -->
+        <div class="header__top">
+            <div class="container">
+                <section class="row flex">
+                    <div class="col-lg-5 col-md-0 col-sm-0 heade__top-left">
+                        <span>Trang Đài Mobile - Cửa hàng uy tín - chất lượng cao</span>
+                    </div>
+
+                    
+                </section>
+            </div>
+        </div>
+        <!--end header top -->
+
+        <!-- header bottom -->
+        <div class="header__bottom">
+            <div class="container">
+                <section class="row">
+                    <div class="col-lg-3 col-md-4 col-sm-12 header__logo">
+                        <h1 class="header__heading">
+                            <a href="#" class="header__logo-link">
+                                <img src="images1/logoTrangDai.PNG" alt="Logo" class="header__logo-img">
+                            </a>
+                        </h1>
+                    </div>
+
+                    <div class="col-lg-6 col-md-7 col-sm-0 header__search">
+                        <select name="" id="" class="header__search-select">
+                            <option value="0">All</option>
+                            <option value="1">Điện thoại</option>
+                            <option value="2">Laptop</option>
+                            <option value="3">Phụ kiện</option>
+                            <option value="4">Máy tính bảng</option>
+                            
+                        </select>
+                        <input type="text" class="header__search-input" placeholder="Tìm kiếm tại đây...">
+                        <button class="header__search-btn">
+                            <div class="header__search-icon-wrap">
+                                <i class="fas fa-search header__search-icon"></i>
+                            </div>
+                        </button>
+                    </div>
+
+                    <div class="col-lg-2 col-md-0 col-sm-0 header__call">
+                        <div class="header__call-icon-wrap">
+                            <i class="fas fa-phone-alt header__call-icon"></i>  
+                        </div>
+                        <div class="header__call-info">
+                            <div class="header__call-text">
+                                Gọi điện tư vấn
+                            </div>
+                            <div class="header__call-number">
+                                0865.047.663
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="#" onclick="showCard()" class="col-lg-1 col-md-1 col-sm-0 header__cart">
+                        <div class="header__cart-icon-wrap">
+                            <span class="header__notice">0</span>
+                            <i class="fas fa-shopping-cart header__nav-cart-icon"></i>
+                        </div>
+                    </a>
+                </section>
+            </div>   
+        </div>
+        <!--end header bottom -->
+
+
+        <!-- header nav -->
+        <div class="header__nav">
+            <div class="container">
+                <section class="row">
+                    <div class="header__nav-menu-wrap col-lg-3 col-md-0 col-sm-0">
+                        <i class="fas fa-bars header__nav-menu-icon"></i>
+                        <div class="header__nav-menu-title">Danh mục sản phẩm</div>
+                    </div>
+
+                    <div class="header__nav col-lg-9 col-md-0 col-sm-0">
+                        <ul class="header__nav-list">
+                            <li class="header__nav-item">
+                                <a href="index.html" class="header__nav-link">Trang chủ</a>
+                            </li>
+                            <li class="header__nav-item">
+                                <a href="category.html" class="header__nav-link">Danh mục sản phẩm</a>
+                            </li>
+                            <li class="header__nav-item">
+                                <a href="product.html" class="header__nav-link">Sản phẩm</a>
+                            </li>
+                            <li class="header__nav-item">
+                                <a href="contact.html" class="header__nav-link">Liên hệ</a>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </header>
+    <!--end header nav -->
+    <!-- score-top-->
+
+<button onclick="topFunction()" id="myBtn-scroll" title="Go to top"><i class="fas fa-chevron-up"></i></button>
+    <!-- product -->
+    <section class="product">
+        <div class="container">
+            <div class="row bg-white pt-4 pb-4 border-bt pc">
+                <nav class="menu__nav col-lg-3 col-md-12 col-sm-0">
+                    <ul class="menu__list">
+                        <li class="menu__item menu__item--active">
+                            <a href="#" class="menu__link">
+                            <img src="images1/item/phone.jfif" alt=""  class="menu__item-icon" id="Capa_1" enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512" width="512">
+                            Điện thoại</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">
+                            <img src="images1/item/laptop.jfif" alt="" class="menu__item-icon" id="Capa_1" enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512" width="512">
+                            Laptop</a>
+                        </li>
+                      
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">
+                                <img src="images1/item/headphone.jpg" alt="" class="menu__item-icon"  viewBox="0 0 512 512" width="1012" height="512">
+
+                            Phụ kiện</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">
+                                <img src="images1/item/tablet.webp" alt="" class="menu__item-icon"  viewBox="0 0 512 512" width="1012" height="512">
+
+                            Máy tính bảng</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">
+                                <img src="images1/item/smartwatch.jfif" alt="" class="menu__item-icon"  viewBox="0 0 512 512" width="1012" height="512">
+
+                            smartwatch</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">
+                                <img src="images1/item/phonefix.webp" alt="" class="menu__item-icon"  viewBox="0 0 512 512" width="1012" height="512">
+
+                            Máy cũ trả góp</a>
+                        </li>
+                      
+                    </ul>
+                </nav>
+
+                <article class="product__main col-lg-9 col-md-12 col-sm-12">
+                    <div class="row">
+                        <div class="slide__left product__main-img col-lg-4 col-md-4 col-sm-12">
+                            <div id="carouselExampleIndicators" class="carousel slide " data-ride="carousel" data-interval="3000">
+                                <!-- <ol class="carousel-indicators">
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                </ol> -->
+                                <ul class="carousel-indicators">
+                                    <li data-target="#carouselExampleControls" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carouselExampleControls" data-slide-to="1"></li>
+                                    <li data-target="#carouselExampleControls" data-slide-to="2"></li>
+                                    <li data-target="#carouselExampleControls" data-slide-to="3"></li>
+                                    <li data-target="#carouselExampleControls" data-slide-to="4"></li>
+                                    <li data-target="#carouselExampleControls" data-slide-to="5"></li>
+                                    <li data-target="#carouselExampleControls" data-slide-to="6"></li>
+                                </ul>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="images1/product/Samsung-Galaxy-Zlip3-5G/1.jpg" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                      <img src="images1/product/Samsung-Galaxy-Zlip3-5G/2.jpg" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images1/product/Samsung-Galaxy-Zlip3-5G/3.jpg" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images1/product/Samsung-Galaxy-Zlip3-5G/4.jpg" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images1/product/Samsung-Galaxy-Zlip3-5G/5.jpg" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images1/product/Samsung-Galaxy-Zlip3-5G/6.jpg"class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images1/product/Samsung-Galaxy-Zlip3-5G/7.jpg"class="d-block w-100" alt="...">
+                                    </div>
+                                    
+                                    
+                                </div>
+                                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                                </a>
+                                <div class="product__panel-price-sale-off">
+                                    -40%
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product__main-info col-lg-8 col-md-8 col-sm-12">
+                            <div class="product__main-info-breadcrumb">
+                                Trang chủ / Sản phẩm
+                            </div>
+                            
+                            <a href="#" class="product__main-info-title">
+                                <h2 class="product__main-info-heading">
+                                    Samsung Galaxy Z Flip3 5G 128GB
+                                </h2>
+                            </a>
+
+                            <div class="product__main-info-rate-wrap">
+                                <i class="fas fa-star product__main-info-rate"></i>
+                                <i class="fas fa-star product__main-info-rate"></i>
+                                <i class="fas fa-star product__main-info-rate"></i>
+                                <i class="fas fa-star product__main-info-rate"></i>
+                                
+                            </div>
+
+                            <div class="product__panel-price">
+                                <span class="product__panel-price-old">
+                                    24.990.000
+                                </span>
+                                <span class="product__panel-price-current">
+                                    14.990.000
+                                </span>
+                            </div>
+
+                            <div class="product__main-info-description">
+                                Trong sự kiện Galaxy Unpacked hồi 11/8, Samsung đã chính thức trình làng mẫu điện thoại màn hình gập thế hệ mới mang tên Samsung Galaxy Z Flip3 5G 128GB. Đây là một siêu phẩm với màn hình gập dạng vỏ sò cùng nhiều điểm cải tiến và thông số ấn tượng, sản phẩm chắc chắn sẽ thu hút được rất nhiều sự quan tâm của người dùng, đặc biệt là phái nữ.
+                            </div> 
+
+                            <div class="product__main-info-cart">
+                                <!--<div class="product__main-info-cart-quantity">
+                                    <input type="button" value="-"  class="product__main-info-cart-quantity-minus">
+                                    <input type="number" step="1" min="1" max="999" value="1" class="product__main-info-cart-quantity-total">
+                                    <input type="button" value="+" class="product__main-info-cart-quantity-plus">
+                                </div>-->
+                                
+                                <div class="product__main-info-cart-btn-wrap">
+                                    <button class="product__main-info-cart-btn">
+                                        Thêm vào giỏ hàng
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="product__main-info-contact">
+                                <a href="https://vi-vn.facebook.com/" class="product__main-info-contact-fb">
+                                    <i class="fab fa-facebook-f"></i>
+                                    Chat Facebook
+                                </a>
+                                <div class="product__main-info-contact-phone-wrap">
+                                    <div class="product__main-info-contact-phone-icon">
+                                        <i class="fas fa-phone-alt "></i>
+                                    </div>
+                                    
+                                    <div class="product__main-info-contact-phone">
+                                        <div class="product__main-info-contact-phone-title">
+                                            Gọi điện tư vấn
+                                        </div>
+                                        <div class="product__main-info-contact-phone-number">
+                                            ( 0865.047.663)
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row bg-white">
+                        <div class="col-12 product__main-tab">
+                            <a href="#" class="product__main-tab-link product__main-tab-link--active">
+                                Mô tả
+                            </a>
+                            <a href="#" class="product__main-tab-link">
+                                Đánh giá
+                            </a>
+                        </div>
+
+                        <div class="col-12 product__main-content-wrap">
+                            <h2 class="product__main-content-heading">
+                                Điện thoại Samsung Galaxy Z Flip3 5G 128GB
+                            </h2>
+                            <div class="intro-img"><img src="images1/product/Samsung-Galaxy-Zlip3-5G/intro1.jpg" alt="image3"/>  
+                            <p>
+                                <span>Thiết kế hiện đại cùng màu sắc thời trang</span> Galaxy Z Flip 3 sở hữu cơ cấu gập theo chiều dọc xịn sò, tạo ra chiếc smartphone khác biệt so với phần còn lại, có thể đóng lại gọn gàng khi không sử dụng để bạn thuận tiện mang theo bên mình.
+                                Kết hợp cùng khung nhôm bo tròn nhẹ nhàng tạo cảm giác cao cấp và tinh tế khi chạm vào, đồng thời bạn không còn phải lo lắng về việc để lại dấu vân tay khi Samsung đã phủ một lớp nhám nhẹ để hoàn thiện cho phần kính này.
+                            </p>
+                            <div class="intro-img"><img src="images1/product/Samsung-Galaxy-Zlip3-5G/intro2.jpg" alt="image3"/> 
+                            <p>
+                                Ở màn hình chính, Z Flip3 được trang bị kính siêu mỏng Ultra Thin Glass (UTG), cho bạn trải nghiệm sự linh hoạt không tưởng với độ bền hơn 80% khi so với phiên bản Galaxy Z Flip LTE và có khả năng gập mở đến 200.000 lần.
+                            </p>
+                            <div class="intro-img"><img src="images1/product/Samsung-Galaxy-Zlip3-5G/intro3.jpg" alt="image3"/> 
+                            <p>
+                                <span>Mượt mà trong từng khung hình</span>Galaxy Z Flip3 5G được trang bị màn hình chất lượng cao Dynamic AMOLED 2X có kích thước 6.7 inch giúp cho hình ảnh đang xem trở nên sống động và sắc nét.
+                                Thiết bị cũng sẽ được trang bị tốc độ làm mới lên đến 120 Hz giúp người dùng tận hưởng trải nghiệm màn hình liền mạch và mượt mà trong cuộc sống hàng ngày.
+                            </p>
+                            <div class="intro-img"><img src="images1/product/Samsung-Galaxy-Zlip3-5G/intro4.jpg" alt="image3"/>
+                            <p> <span>Hiệu suất tuyệt vời</span>
+                                Galaxy Z Flip3 5G sẽ hoạt động mượt mà với chip Snapdragon 888 5 nm, đi kèm RAM 8 GB hứa hẹn sẽ mang đến trải nghiệm tốt nhất cho người dùng.
+                                Với vi xử lý mạnh mẽ sẽ giúp máy trở nên mượt mà vô cùng ấn tượng, không một tựa game hay ứng dụng nặng nào có thể làm khó được con chip này. Kết hợp cùng GPU Adreno 660 cho khả năng xử lý đồ họa và các tác vụ được diễn ra nhanh chóng nhất có thể.
+                            </p>
+                            <div class="intro-img"><img src="images1/product/Samsung-Galaxy-Zlip3-5G/intro5.jpg" alt="image3"/>
+                            <p>
+                                <span>Nhiếp ảnh siêu chất</span>Điện thoại Samsung Galaxy Z này có sự thay đổi về bố cục cụm camera sau, giờ đây 2 máy ảnh sẽ được đặt dọc thay vì đặt nằm ngang như mẫu trước đó. Hệ thống ống kính bao gồm một cảm biến chính 12 MP và một camera siêu rộng 12 MP. Khả năng quay video được Samsung rất chú trọng với độ phân giải 4K cực đỉnh cùng chế độ Flex Mode cho phép Galaxy Z Flip3 5G "đứng vững" trên bề mặt phẳng giúp giảm hiện tượng giật màn hình một cách hiệu quả cho những khoảnh khắc đời thường được thể hiện một cách mượt mà hơn.
+                            </p>
+                            <div class="intro-img"><img src="images1/product/Samsung-Galaxy-Zlip3-5G/intro6.jpg" alt="image3"/>
+                           
+                            
+                                
+                            
+                            <h2 class="thongtin">    <span>Thông tin chi tiết</span> 
+                             </h2>
+                                <div class="table-responsive">
+                                    <table class="table table-bordered">
+                                        <tbody>
+                                            <tr>
+                                                <th>Màn hình:</th>
+                                                <td>Dynamic AMOLED 2XChính 6.7" & Phụ 1.9"Full HD+</td>
+                                            </tr>
+                                            <tr><th>Hệ điều hành:</th><td>Android 11</td></tr>
+                                            <tr><th>Camera sau:</th><td>2 camera 12 MP</td></tr>
+                                            <tr><th>Camera trước:</th><td>10 MP</td></tr>
+                                            <tr><th>Chip:</th><td> Snapdragon 888</td></tr>
+                                            <tr><th>RAM:</th><td>8GB</td></tr>
+                                            <tr><th>Bộ nhớ trong:</th><td>128 GB</td></tr>
+                                            <tr><th>SIM:</th><td>1 Nano SIM & 1 eSIMHỗ trợ 5G</td></tr>
+                                            <tr><th>Pin, Sạc:</th><td>3300 mAh15 W</td></tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                              
+                        
+                        </div>
+                        
+                    </div>
+                </article>
+
+                <aside class="product__aside col-lg-3 col-md-0 col-sm-0">
+                    <div class="product__aside-top">
+                        <div class="product__aside-top-item">
+                            <img src="images/shipper.png">
+                            <div class="product__aside-top-item-text">
+                                <p>
+                                    Giao hàng nhanh chóng
+                                </p>
+                                <span>
+                                    Chỉ trong vòng 24h
+                                </span>
+                            </div>
+                        </div>
+                        <div class="product__aside-top-item">
+                            <img src="images/brand.png">
+                            <div class="product__aside-top-item-text">
+                                <p>
+                                    Sản phẩm chính hãng
+                                </p>
+                                <span>
+                                    Bảo hành chính hãng điện thoại 1 năm tại các trung tâm bảo hành hãng
+                                </span>
+                            </div>
+                        </div>
+                        <div class="product__aside-top-item">
+                            <img src="images/less.png">
+                            <div class="product__aside-top-item-text">
+                                <p>
+                                    Mua hàng tiết kiệm
+                                </p>
+                                <span>
+                                    Rẻ hơn từ 10% đến 30%
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product__aside-bottom">
+                        <h3 class="product__aside-heading">
+                            Có thể bạn thích
+                        </h3>
+
+                        <div class="product__aside-list">
+                            <div class="Iphone-13 product__aside-item product__aside-item--border">
+                                <div class="product__aside-img-wrap">
+                                    <img src="images1/product/iPhone-13-1.jpg" class="product__aside-img">
+                                </div>
+                                <div class="product__aside-title">
+                                    <a href="#" class="product__aside-link">
+                                        <h4 class="product__aside-link-heading"> Iphone 13 <span class ="doimausale">giảm giá 13%</span></h4>
+                                    </a>
+
+                                    <div class="product__aside-rate-wrap">
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                    </div>
+
+                                    <div class="product__panel-price">
+                                        <span class="product__panel-price-old">
+                                            24.990.000
+                                        </span>
+                                        <span class="product__panel-price-current">
+                                            20.290.000
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="Iphone-12 product__aside-item">
+                                <div class="product__aside-img-wrap">
+                                    <img src="images1/product/iphone-12-tim-1.jpg" class="product__aside-img">
+                                </div>
+                                <div class="product__aside-title">
+                                    <a href="#" class="product__aside-link">
+                                        <h4 class="product__aside-link-heading">Iphone 12 <span class ="doimausale">giảm giá 11%</span> </h4>
+                                    </a>
+
+                                    <div class="product__aside-rate-wrap">
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                       
+                                    </div>
+
+                                    <div class="product__panel-price">
+                                        <span class="product__panel-price-old">
+                                            19.990.000
+                                        </span>
+                                        <span class="product__panel-price-current">
+                                            17.790.000
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="Samsung-galaxy-m53 product__aside-item">
+                                <div class="product__aside-img-wrap">
+                                    <img src="images1/product/samsung-galaxy-m53.jpg" class="product__aside-img">
+                                </div>
+                                <div class="product__aside-title">
+                                    <a href="#" class="product__aside-link">
+                                        <h4 class="product__aside-link-heading">Samsung Galaxy M53</h4>
+                                    </a>
+
+                                    <div class="product__aside-rate-wrap">
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                        
+                                    </div>
+
+                                    <div class="product__panel-price">
+                                        <span class="product__panel-price-old">
+                                            
+                                        </span>
+                                        <span class="product__panel-price-current">
+                                            12.990.000
+                                        </span>
+                                    </div> 
+                                </div>
+                            </div>
+
+                            <div class="Xiaomi-11T-5G product__aside-item">
+                                <div class="product__aside-img-wrap">
+                                    <img src="images1/product/Xiaomi-11T-White.jpg" class="product__aside-img">
+                                </div>
+                                <div class="product__aside-title">
+                                    <a href="#" class="product__aside-link">
+                                        <h4 class="product__aside-link-heading">Xiaomi 11T <span class ="doimausale">giảm giá 13%</span></h4>
+                                    </a>
+
+                                    <div class="product__aside-rate-wrap">
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                    </div>
+
+                                    <div class="product__panel-price">
+                                        <span class="product__panel-price-old">
+                                            10.990.000
+                                        </span>
+                                        <span class="product__panel-price-current">
+                                            9.490.000
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="Oppo-Reno4-Pro product__aside-item">
+                                <div class="product__aside-img-wrap">
+                                    <img src="images1/product/oppo-reno4-pro.jpg" class="product__aside-img">
+                                </div>
+                                <div class="product__aside-title">
+                                    <a href="#" class="product__aside-link">
+                                        <h4 class="product__aside-link-heading">OPPO Reno4 Pro</h4>
+                                    </a>
+
+                                    <div class="product__aside-rate-wrap">
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                        
+                                    </div>
+
+                                    <div class="product__panel-price">
+                                        <span class="product__panel-price-old">
+                                          
+                                        </span>
+                                        <span class="product__panel-price-current">
+                                            10.490.000
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="Iphone13-Mini product__aside-item">
+                                <div class="product__aside-img-wrap">
+                                    <img src="images1/product/iphon13- mini.jpg" class="product__aside-img">
+                                </div>
+                                <div class="product__aside-title">
+                                    <a href="#" class="product__aside-link">
+                                        <h4 class="product__aside-link-heading">Iphone 13 mini <span class ="doimausale">giảm giá 13%</span></h4>
+                                    </a>
+
+                                    <div class="product__aside-rate-wrap">
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                    </div>
+
+                                    <div class="product__panel-price">
+                                        <span class="product__panel-price-old">
+                                            21.490.000
+                                        </span>
+                                        <span class="product__panel-price-current">
+                                            18.290.000
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="Samsung-Galaxy-S20FE product__aside-item">
+                                <div class="product__aside-img-wrap">
+                                    <img src="images1/product/samsung-galaxy-s20.jpg" class="product__aside-img">
+                                </div>
+                                <div class="product__aside-title">
+                                    <a href="#" class="product__aside-link">
+                                        <h4 class="product__aside-link-heading">Samsung Galaxy S20 FE <span class ="doimausale">giảm giá 29%</span></h4>
+                                    </a>
+
+                                    <div class="product__aside-rate-wrap">
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                      
+                                    </div>
+
+                                    <div class="product__panel-price">
+                                        <span class="product__panel-price-old">
+                                            15.490.000
+                                        </span>
+                                        <span class="product__panel-price-current">
+                                            10.990.000
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+
+            </div>
+            
+           <div class="customer-reviews row pb-4 pb-4  py-4 pb-4 py-4 py-4">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <h3 >Bình luận sản phẩm</h3>
+                <form id ="formgroupcomment" method="post">
+                    <div class="form-group">
+                        <label>Tên:</label>
+                        <input name="comm_name" required="" type="text" id ='form-name' class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label>Email:</label>
+                        <input name="comm_mail" required="" type="email"  class="form-control" id="pwd">
+                    </div>
+                    <div class="form-group">
+                        <label>Nội dung:</label>
+                        <textarea name="comm_details" required="" rows="8" id ='formcontent' class="form-control"></textarea>     
+                    </div>
+                    <button type="submit" name="sbm" id= "submitcomment" class="btn btn-primary">Gửi</button>
+                </form> 
+            </div>
+           </div>
+            
+           <div class="product-comment row pb-4 pb-4  py-4 pb-4 py-4 py-4">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <div class="comment-item">
+                    <ul class = item-reviewer>
+                        <div class="comment-item-user">
+                            <img src="images/img/1.png" alt="" class="comment-item-user-img">
+                            
+                            <li><b>Nguyễn Nhung</b></li> 
+                         </div>
+                      
+                       <br>
+                        <li>2022-08-17 20:40:10</li>
+                        <li>
+                           <h4>Điện thoại mượt, đóng gói cẩn thận</h4>
+                        </li>
+                    </ul>
+                </div>
+                <div class="comment-item">
+                    <ul class = item-reviewer> 
+                    <div class="comment-item-user">
+                        <img src="images/img/2.png" alt="" class="comment-item-user-img">
+                        <li><b>Tùng Lương</b></li> 
+                     </div>
+                   
+                       <br>
+                        <li>2022-02-17 12:20:10</li>
+                        <li>
+                           <h4>Cấu hình ok ..không bị lag</h4>
+                        </li>
+                    </ul>
+                </div>
+                <div class="comment-item">
+                    <ul class = item-reviewer>
+                    <div class="comment-item-user">
+                        <img src="images/img/5.png" alt="" class="comment-item-user-img">
+                        <li><b>Trung Trần</b></li> 
+                     </div>
+                    
+                        <br>
+                       
+                        <li>2021-12-27 10:48:20</li>
+                        <li>
+                           <h4></h4>
+                        </li>
+                    </ul>
+                </div>
+                <div class="comment-item">
+                    <ul class = item-reviewer> 
+                    <div class="comment-item-user">
+                        <img src="images/img/6.png" alt="" class="comment-item-user-img">
+                        <li><b>Sơn Hoàng</b></li> 
+                     </div>
+                        <br>
+                    
+                        <li>2021-08-17 20:40:18</li>
+                        <li>
+                           <h4>Tôi rất hài lòng về shop</h4>
+                        </li>
+                    </ul>
+                </div>
+                
+                
+            </div>
+        </div>
+    </section>
+    
+
+   <!-- footer -->
+   <footer>
+    <section class="footer__top">
+        <div class="container">
+            <div class="row">
+                <article class="footer__top-intro col-lg-5 col-md-4 col-sm-6">
+                    <h4 class="footer__top-intro-heading">
+                        Về chúng tôi
+                    </h4>
+                    <div class="footer__top-intro-content">
+                        Trang Đài Mobile là cửa hàng chuyên bán về các sản phẩm điện thoại ,
+                         laptop, phụ kiện đi kèm, luôn cung cấp cho các bạn những mẫu mã tốt nhất và có bảo hành đầy đủ.
+                         <br>
+                        Điện thoại: 0865.047.663 <br>
+                       
+                    </div>
+                </article>
+
+                <article class="footer__top-policy col-lg-3 col-md-4 col-sm-6">
+                    <h4 class="footer__top-policy-heading">
+                        Chính sách mua hàng
+                    </h4>
+
+                    <ul class="footer__top-policy-list">
+                        <li class="footer__top-policy-item">
+                            <a href="#" class="footer__top-policy-link">Hình thức đặt hàng</a>
+                        </li>
+                        <li class="footer__top-policy-item">
+                            <a href="#" class="footer__top-policy-link">Hình thức thanh toán</a>
+                        </li>
+                        <li class="footer__top-policy-item">
+                            <a href="#" class="footer__top-policy-link">Phương thức vận chuyển</a>
+                        </li>
+                        <li class="footer__top-policy-item">
+                            <a href="#" class="footer__top-policy-link">Chính sách đổi trả</a>
+                        </li>
+                        <li class="footer__top-policy-item">
+                            <a href="#" class="footer__top-policy-link">Hướng dẫn sử dụng</a>
+                        </li>
+                    </ul>
+                </article>
+
+                <article class="footer__top-contact-wrap col-lg-4 col-md-4 col-sm-6">
+                    <h4 class="footer__top-contact-heading">
+                        Hotline liên hệ
+                    </h4>
+
+                    <div class="footer__top-contact">
+                        <div class="footer__top-contact-icon">
+                            <img src="images/phone_top.png" class="footer__top-contact-img">
+                        </div>
+
+                        <div class="footer__top-contact-phone-wrap">
+                            <div class="footer__top-contact-phone">
+                                0865.047.663
+                            </div>
+                            <div class="footer__top-contact-des">
+                                (Giải đáp thắc mắc 24/24)
+                            </div>
+                        </div>
+                    </div>
+                
+                    <h4 class="footer__top-contact-heading">
+                        Kết nối với chúng tôi
+                    </h4>
+
+                    <div class="footer__top-contact-social">
+                        <a href="#" class="footer__top-contact-social-link">
+                            <img src="images/facebook.png">
+                        </a>
+                        <a href="#" class="footer__top-contact-social-link">
+                            <img src="images/youtube.png">
+                        </a>
+                        <a href="#" class="footer__top-contact-social-link">
+                            <img src="images/tiktok.png">
+                        </a>
+                        <a href="#" class="footer__top-contact-social-link">
+                            <img src="images/zalo.png">
+                        </a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section class="footer__bottom">
+        <div class="container">
+            <div class="row">
+                <span class="footer__bottom-content">@Bản quyền thuộc về Trang Đài Mobile</span>
+            </div>
+        </div>
+    </section>
+</footer>
+<!-- end footer -->
+<section class ="Cart_Product">
+    <i class="fas fa-times"></i>
+    <h2 style="text-align: center; margin-bottom: 20px; color: tomato;"> GIỎ HÀNG CỦA BẠN</h2>
+    <form action="">
+        <table class="tbCard tbCard-bordered" >
+            <thead>
+                <tr >
+                    <th>Sản Phẩm</th>
+                    <th>Giá</th>
+                    <th>Số Lượng</th>
+                    <th>Đơn giá</th>
+                </tr>
+            </thead>
+            <tbody class="tbd">
+                <!-- <tr>
+                    <td class="cart__body-name-title" style=" padding: 8px;  font-size: 1.5rem;">Oppo reno 4</td>
+                    <td style=" padding: 8px;  font-size: 1.5rem;"><span>76.800đ</span></td>
+                    <td style=" padding: 8px;  font-size: 1.5rem;" ><input class="quantity" style="width:65px; outline:none;text-align:center" type="number" value="1" min="1"/></td>
+                    <td style = "cursor: pointer; padding: 8px;  font-size: 1.5rem;">Xóa</td>
+                </tr> -->
+            </tbody>
+        </table>
+        <br>
+        <div style="text-align:right;color:red" class="price_total">
+            <p style="font-weight: bold; font-size: 1.5rem; padding: 20px;">Tổng Tiền: <Span style="font-size: 1.5rem;">0</Span>  <sup>vnd</sup></p>
+        </div>
+        <div class="Order">
+            <h3 class="doimausale">
+                Quý khách vui lòng để lại thông tin cá nhân để mua hàng
+            </h3>
+            <form id ="FormOrderP" action="" method="post">
+                <div>
+                    <input type="text" id="Customer_Name" aria-describedby="emailHelp" placeholder="Họ tên của bạn..." required>
+                    <span class="required"></span>
+                </div>
+                <div>
+                    <input type="number" id="Customer-Phone" aria-describedby="emailHelp" placeholder="Số điện thoại của bạn..." required>
+                    <span class="required"></span>
+                </div>
+                <div>
+                    <input type="text" id="Customer-address" aria-describedby="emailHelp" placeholder="Địa chỉ của bạn..." required>
+                    <span class="required"></span>
+                </div>
+                <p>Bạn muốn mua điện thoại trả góp bao nhiều tháng?</p>
+                <label class="radio-inline"><input type="radio" name="optradio" checked>3 Tháng</label>
+                <label class="radio-inline"><input type="radio" name="optradio">6 Tháng</label>
+                <label class="radio-inline"><input type="radio" name="optradio">9 Tháng</label>
+                <label class="radio-inline"><input type="radio" name="optradio">12 Tháng</label>
+                <textarea name="" id="" cols="200" rows="15" placeholder="Ghi chú..."></textarea> 
+                <button onclick="submitOrder()" class="btn btn-primary">Gửi liên hệ</button>
+            </form>
+        </div>
+        <button onclick="btorder()" class="bto">
+            Đặt hàng
+        </button>
+    </form>
+</section>
+    <script src="js/product.js"></script>
+    <script src="js/jq.js"></script>
+    <script src="js/link.js"></script>
+    <script src="js/card.js"></script>
+</body>
+</html>
