@@ -58,7 +58,42 @@ $(".OPPO-Reno7-series").click(function(){
 $(".Iphone-11").click(function(){
     $(location).attr('href','Iphone-11.html');
 });
-
+$(".Samsung-Galaxy-Tab-S28").click(function(){
+    $(location).attr('href','Samsung-Galaxy-Tab-S28.html');
+});
+$(".Alcatel-3T8").click(function(){
+    $(location).attr('href','Alcatel-3T8.html');
+});
+$(".Samsung-galaxy-tab-s8-Utra").click(function(){
+    $(location).attr('href','Samsung-galaxy-tab-s8-Utra.html');
+});
+$(".ipad-Air-4g").click(function(){
+    $(location).attr('href','ipad-Air-4g.html');
+});
+$(".ipad-mini-6").click(function(){
+    $(location).attr('href','ipad-mini-6.html');
+});
+$(".huawei-matepad-11").click(function(){
+    $(location).attr('href','huawei-matepad-11.html');
+});
+$(".acer-nitro-5").click(function(){
+    $(location).attr('href','acer-nitro-5.html');
+});
+$(".hp-gaming-victus").click(function(){
+    $(location).attr('href','hp-gaming-victus.html');
+});
+$(".lenovo-gaming-legion").click(function(){
+    $(location).attr('href','lenovo-gaming-legion.html');
+});
+$(".lenovo-ideapad").click(function(){
+    $(location).attr('href','lenovo-ideapad.html');
+});
+$(".macbook-pro-M11").click(function(){
+    $(location).attr('href','macbook-pro-M11.html');
+});
+$(".msi-creator-z16").click(function(){
+    $(location).attr('href','msi-creator-z16.html');
+});
 
 
 
