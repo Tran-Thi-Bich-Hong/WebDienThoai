@@ -422,31 +422,18 @@ body{
     }
 }
 
-@media (max-width:768px){
-    .hide-on-mobile{
-        display: none;
-    }
-
+@media screen and (max-width:768px){
+   
     .header__search{
-        display: none;
+        width:50%
     }
-
-    .header__cart{
-        display: none;
-    }
-
-    .header__nav{
-        display: none;
-    }
-
-    .header__heading {
-        text-align: center;
-    }
-
     .header__logo-img {
-        max-width: 10rem;
+        width: 22rem;
     }
-
+    .col-sm-12 {
+        width: 50%;
+    }
+    
 
 }
 
@@ -457,6 +444,12 @@ body{
 }
 
 
+@media screen and (max-width: 700px) {
+   body {
+   padding: 170px 0 0 0;
+   width: 100%;
+   }
+}
 #myBtn-scroll{
 
     display: none;
